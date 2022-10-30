@@ -5,7 +5,7 @@ import (
 )
 
 func TestMatch(t *testing.T) {
-	cs := []string{"foo", "bar", "baz", "hello", "world", "cart", "camp", "code", "fuzz"}
+	cs := []string{"foo", "bar", "baz", "hello", "world", "cart", "damp", "code", "fuzz"}
 	tests := []struct {
 		s, m string
 		ts   float64
